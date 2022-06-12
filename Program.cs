@@ -32,3 +32,9 @@ void FormArray(string[] array)
         else array[i] = string.Empty;
     }
 }
+
+PrintArray(array);
+Console.WriteLine($"Полученный результат: ");
+FormArray(array);
+PrintArray(array);
+Console.WriteLine($"Спасибо за внимание!");
