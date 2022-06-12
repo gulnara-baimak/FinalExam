@@ -19,3 +19,16 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+void FormArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        string array1 = array[i];
+        if (array1.Length <= 3)
+        {
+            array[i] = array1;
+    }
+        else array[i] = string.Empty;
+    }
+}
