@@ -6,3 +6,8 @@
 // "hello", "2", "world", ":)"  => ["2", ":)"]
 // "1234", "1567", "-2", "computer science" => ["-2"]
 // "Russia", "Denmark", "Kazan" => []
+Console.WriteLine($"Программа, которая из имеющегося массива строк формирует массив из строк, длина которой меньше либо равно 3 символа");
+Console.WriteLine("Входные данные:  ");
+string[] array = new string[] { "1234", "1567", "-2", "computer science" };
+//string[] array = new string[] { "hello", "2", "world", ":)" };
+// string[] array = new string[] { "Russia", "Denmark", "Kazan" };
