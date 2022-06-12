@@ -11,3 +11,11 @@ Console.WriteLine("Входные данные:  ");
 string[] array = new string[] { "1234", "1567", "-2", "computer science" };
 //string[] array = new string[] { "hello", "2", "world", ":)" };
 // string[] array = new string[] { "Russia", "Denmark", "Kazan" };
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
